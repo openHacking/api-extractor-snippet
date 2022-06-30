@@ -2,7 +2,7 @@
   "name": "vscode-extension-api-extractor-snippet",
   "displayName": "API Extractor Snippet",
   "description": "API Extractor doc comment syntax",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "openHacking",
   "author": {
     "name": "openHacking"
