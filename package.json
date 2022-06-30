@@ -1,21 +1,41 @@
 {
-	"name": "vscode-extension-api-extractor-snippet",
-	"displayName": "API Extractor Snippet",
-	"description": "API Extractor doc comment syntax",
-	"version": "0.0.1",
-	"publisher": "openHacking",
-	"engines": {
-		"vscode": "^1.28.0"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "typescript",
-				"path": "./snippets.json"
-			}
-		]
-	}
+  "name": "vscode-extension-api-extractor-snippet",
+  "displayName": "API Extractor Snippet",
+  "description": "API Extractor doc comment syntax",
+  "version": "0.0.1",
+  "publisher": "openHacking",
+  "author": {
+    "name": "openHacking"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "API Extractor",
+    "API Documenter",
+    "Snippet",
+    "hint"
+  ],
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openHacking/api-extractor-snippet/issues",
+    "email": "openHacking@126.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openHacking/api-extractor-snippet.git"
+  },
+  "homepage": "https://github.com/openHacking/api-extractor-snippet/blob/main/README.md"
 }
